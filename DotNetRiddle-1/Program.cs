@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+var before = GC.GetAllocatedBytesForCurrentThread();
+await GetNumber();
+var after = GC.GetAllocatedBytesForCurrentThread();
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine($"Bytes allocated: {after - before}");
+
+
+static Task<int> GetNumber()
+{
+    return Task.FromResult(0);
+}
