@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRiddles", "DotNetRiddles\DotNetRiddles.csproj", "{4B3A591E-5067-457A-9606-06EEFCF85591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRiddle-1", "DotNetRiddle-1\DotNetRiddle-1.csproj", "{4B3A591E-5067-457A-9606-06EEFCF85591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
